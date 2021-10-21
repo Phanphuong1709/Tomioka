@@ -1,0 +1,53 @@
+#header{
+    background-color: rgb(252, 214, 165);
+    height: 205px;
+}
+#main{
+    background-color: burlywood;
+    height: 500px;
+    float: left;
+    overflow: scroll;
+    width: 40%;
+}
+#side-bar{
+    background-color: rgb(218, 138, 109);
+    height: 500px;
+    float: left;
+    width: 60%;
+}
+#footer{
+    background-color: rgb(238, 196, 117);
+    height: 200px;
+    clear: both;
+}
+body{
+    height: 100%;
+    background-image: url(../image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+.i1{
+    height: 140px;
+}
+#header, #main, #side-bar, #footer{
+    opacity: 0.6;
+}
+#i2{
+    width: 70%;
+    font-family: cursive;
+}
+#i3{
+    width:100%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+#i4{
+    font-family: cursive;
+    padding: 50px;
+}
